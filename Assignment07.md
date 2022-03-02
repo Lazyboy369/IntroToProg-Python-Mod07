@@ -3,7 +3,7 @@ Ryan Clabots
 2-28-22
 
 ## Introduction
-This week we learned about Pickling data and Error Handling. This script 
+This week we learned about Pickling data and Error Handling. This script shows two simple scripts to demonstrate the concepts.
 
 ## Writing the Script
 ```
@@ -24,7 +24,7 @@ def store_data():
     objFile = open('PickledList.txt', 'ab')
     strList = ['Banana', 'apple', 'orange', 'grapes', 'beer']
     print(strList)
-    p = pickle.dump(strList, objFile)
+    pickle.dump(strList, objFile)
     objFile.close()
 
 def load_data():
@@ -37,6 +37,7 @@ load_data()
 
 ```
 ##### Figure 1 - Pickling part of the script
+For the pickling section, two functions were used, one to store the data and the other to unpack it. The `pickle` module is imported first. The `store_data` function opens a text file in bianary append mode, creates a list, and prints the data before it's pickled. The list is then pickled using the `dump` object and the file then closed. The `load_data` function is then called and once again opens the file in a read bianary mode. The pickled data is then loaded using the `load` opject into a variable that is printed to show how the data remains intact.
 
 ```
 # Error Handling ------------------------------------------------------------- #
