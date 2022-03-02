@@ -57,3 +57,4 @@ except FileNotFoundError as e:
 ```
 
 ## Running the Stript
+![Running the script in Pycharm's console]https://github.com/Lazyboy369/IntroToProg-Python-Mod07/blob/main/Pycharm_Console.png "Running the script in Pycharm's console"#### Running the script in Pycharm's console
