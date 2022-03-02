@@ -6,7 +6,7 @@ Ryan Clabots
 This week we learned about Pickling data and Error Handling. This script shows two simple scripts to demonstrate the concepts.
 
 ## Writing the Script
-```
+```markdown
 # ---------------------------------------------------------------------------- #
 # Title: Assignment 07
 # Description: Demonstrate examples of pickling data as well as error handling
@@ -41,7 +41,7 @@ For the pickling section, two functions were used, one to store the data and the
 
 &nbsp;
 
-```
+```markdown
 # Error Handling ------------------------------------------------------------- #
 
 # Processing Data (Add data to list section from Assignment06)
