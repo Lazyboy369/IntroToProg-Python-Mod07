@@ -65,7 +65,7 @@ The error handling case uses an example from Assignment06 where the user is tryi
 &nbsp;
 
 ## Running the Stript
-![Running the script in Pycharm's Console](docs/Pycharm_Console.png "Running the script in Pycharm's console")
+![Running the script in Pycharm's Console](Pycharm_Console.png "Running the script in Pycharm's console")
 ##### Figure 3 - Running the script in Pycharm's console
 
 &nbsp;
