@@ -3,9 +3,10 @@ Ryan Clabots
 2-28-22
 
 ## Introduction
+This week we learned about Pickling data and Error Handling. This script 
 
-```
 ## Writing the Script
+```
 # ---------------------------------------------------------------------------- #
 # Title: Assignment 07
 # Description: Demonstrate examples of pickling data as well as error handling
@@ -35,7 +36,7 @@ store_data()
 load_data()
 
 ```
-Figure 1 - Pickling part of the script
+##### Figure 1 - Pickling part of the script
 
 ```
 # Error Handling ------------------------------------------------------------- #
@@ -55,12 +56,12 @@ except FileNotFoundError as e:
     print(e)
 
 ```
-Figure 2 - Error Handling part of script
+##### Figure 2 - Error Handling part of script
 
 ## Running the Stript
 ![Running the script in Pycharm's Console](https://github.com/Lazyboy369/IntroToProg-Python-Mod07/blob/main/Pycharm_Console.png "Running the script in Pycharm's console")
-#### Running the script in Pycharm's console
+##### Figure 3 - Running the script in Pycharm's console
 
-![Running the script in the CMD Shell]( "Running the script in the CMD Shell")
-#### Running the script in the CMD Shell
+![Running the script in the CMD Shell](https://github.com/Lazyboy369/IntroToProg-Python-Mod07/blob/main/CMD_Shell.png "Running the script in the CMD Shell")
+##### Figure 4 - Running the script in the CMD Shell
 
