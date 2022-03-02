@@ -39,6 +39,8 @@ load_data()
 ##### Figure 1 - Pickling part of the script
 For the pickling section, two functions were used, one to store the data and the other to unpack it. The `pickle` module is imported first. The `store_data` function opens a text file in bianary append mode, creates a list, and prints the data before it's pickled. The list is then pickled using the `dump` object and the file then closed. The `load_data` function is then called and once again opens the file in a read bianary mode. The pickled data is then loaded using the `load` opject into a variable that is printed to show how the data remains intact.
 
+&nbsp;
+
 ```
 # Error Handling ------------------------------------------------------------- #
 
@@ -58,10 +60,15 @@ except FileNotFoundError as e:
 
 ```
 ##### Figure 2 - Error Handling part of script
+The error handling case uses an example from Assignment06 where the user is trying to add data to a dictionary table. This example shows how the error handling is used if the file that is being opened does not exist. The `FileNotFoundError` error handle is used in this case and captured as `e`. The user is notified that the file does not exist and the error is printed.
+
+&nbsp;
 
 ## Running the Stript
 ![Running the script in Pycharm's Console](https://github.com/Lazyboy369/IntroToProg-Python-Mod07/blob/main/Pycharm_Console.png "Running the script in Pycharm's console")
 ##### Figure 3 - Running the script in Pycharm's console
+
+&nbsp;
 
 ![Running the script in the CMD Shell](https://github.com/Lazyboy369/IntroToProg-Python-Mod07/blob/main/CMD_Shell.png "Running the script in the CMD Shell")
 ##### Figure 4 - Running the script in the CMD Shell
