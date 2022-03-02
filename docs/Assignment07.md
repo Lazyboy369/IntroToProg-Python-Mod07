@@ -70,5 +70,5 @@ The error handling case uses an example from Assignment06 where the user is tryi
 
 &nbsp;
 
-![Running the script in the CMD Shell](docs/CMD_Shell.png "Running the script in the CMD Shell")
+![Running the script in the CMD Shell](CMD_Shell.png "Running the script in the CMD Shell")
 ##### Figure 4 - Running the script in the CMD Shell
