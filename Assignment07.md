@@ -16,7 +16,7 @@ Ryan Clabots
 lstRow = []  # list of data
 objFile = None  # file handle
 
-# Pickleing ------------------------------------------------------------------ #
+# Pickling ------------------------------------------------------------------ #
 import pickle
 
 def store_data():
@@ -35,7 +35,7 @@ store_data()
 load_data()
 
 ```
-
+Figure 1 - Pickling part of the script
 
 ```
 # Error Handling ------------------------------------------------------------- #
@@ -55,6 +55,12 @@ except FileNotFoundError as e:
     print(e)
 
 ```
+Figure 2 - Error Handling part of script
 
 ## Running the Stript
-![Running the script in Pycharm's console]https://github.com/Lazyboy369/IntroToProg-Python-Mod07/blob/main/Pycharm_Console.png("Running the script in Pycharm's console")#### Running the script in Pycharm's console
+![Running the script in Pycharm's Console](https://github.com/Lazyboy369/IntroToProg-Python-Mod07/blob/main/Pycharm_Console.png "Running the script in Pycharm's console")
+#### Running the script in Pycharm's console
+
+![Running the script in the CMD Shell]( "Running the script in the CMD Shell")
+#### Running the script in the CMD Shell
+
